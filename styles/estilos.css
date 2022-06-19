@@ -1,0 +1,34 @@
+.titulo{
+   margin: 5% 0% 5% 0%; 
+}
+
+.logonav{
+   width: 50px;
+   height: 50px;
+   
+}
+
+
+.parallax{
+   background: #000;
+   
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(../img/parallax.jpg);
+}
+
+.parallaxint{
+
+   padding: 100px 0 150px 0;
+}
+
+.bannerclientes{
+   width: 100%;
+   height: 200px;
+   background-image: url(../img/banner1.png);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
