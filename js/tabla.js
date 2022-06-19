@@ -67,6 +67,15 @@ let createItem = () => {
     const placa = document.querySelector('#txtplaca').value
     const marca = document.querySelector('#txtmarca').value
     const modelo = document.querySelector('#txtmodelo').value
+    const formulario = document.querySelector('#formulario');
+
+    const txtResultado = document.querySelector('#resultado')
+   
+        txtResultado.textContent = '';
+    
+    formulario.reset()
+
+    
     let newClient = {
         "nombre":nombre,
         "tipovh":tipovh,
@@ -94,6 +103,8 @@ let createItem = () => {
             //error
             renderResult(false)
         })
+       
+      
 }
 
 let renderResult = (result) => {
@@ -106,6 +117,7 @@ let renderResult = (result) => {
     //Obtener Modal
     var Modalcap = document.getElementById('exampleModal');
     var modal = bootstrap.Modal.getInstance(Modalcap)
+    
     modal.hide();
     //Remover body
     const tBody = document.querySelector('.tbody')
@@ -113,3 +125,4 @@ let renderResult = (result) => {
     //Mostrar tabla actualizada
     mostrarTabla();
 }
+
