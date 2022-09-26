@@ -1,0 +1,14 @@
+body{
+   
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.9)
+      ),url(/img/banner3.png);
+   
+    width: 100%;
+    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
