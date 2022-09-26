@@ -53,9 +53,6 @@ let renderTable = (data) => {
 
         bodytable.appendChild(tr);
     }
-
-
-
 }
 
 //Metodo consumo API POST

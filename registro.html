@@ -45,7 +45,7 @@
         <div class="row pt-5 mt-5 mb-3 pb-3">
             <div class="col-md-4"></div>
             <div class="col-md-4 align-self-center">
-                <form>
+                <form id="preventDefault">
                     <div class="mb-3">
                       <label for="exampleInputEmail1" class="form-label">Usuario</label>
                       <input type="" class="form-control" id="usuario" aria-describedby="user">
@@ -53,7 +53,7 @@
                     </div>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">email</label>
-                        <input type="email" class="form-control" id="usuario" aria-describedby="user">
+                        <input type="email" class="form-control" id="email" aria-describedby="user">
                         
                       </div>
                     <div class="mb-3">
@@ -61,14 +61,11 @@
                       <input type="password" class="form-control" id="Contraseña">
                     </div>
                     
-                    <button type="" class="btn btn-primary">Enviar</button>
+                    <button id="enviar" type="" class="btn btn-primary">Enviar</button>
                   </form>
             </div>
             <div class="col-md-4 mb-3"></div>
         </div>
-
-
-
 
     </div>
     <footer>
@@ -98,5 +95,6 @@
 
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+<script src="/controllers/controladorRegistro.js"></script>
 </body>
 </html>
