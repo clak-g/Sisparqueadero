@@ -1,9 +1,9 @@
 const enviar = document.getElementById("enviar");
-// const prevent = document.getElementById("preventDefault");
+const prevent = document.getElementById("preventDefault");
 
-// prevent.addEventListener('click', function(e){
-//     e.preventDefault(prevent)
-// })
+prevent.addEventListener('click', function(e){
+    e.preventDefault(prevent)
+})
 
 enviar.addEventListener('click', function(e){
 
@@ -18,7 +18,7 @@ enviar.addEventListener('click', function(e){
         "email" : email
     }
 
-    fetch('URI',{
+    fetch('localhost:5000/api/admin',{
         method: 'POST',
         Headers:{
             'Content-Type': 'application/json'

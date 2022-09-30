@@ -1,14 +1,38 @@
 body{
-   
-    background-image: linear-gradient(
-        rgba(0, 0, 0, 0.6),
-        rgba(0, 0, 0, 0.9)
-      ),url(/img/banner3.png);
-   
-    width: 100%;
-    
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.9)
+    ),url(/img/banner3.png);
+  
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardInfo-container {
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+  margin-inline: auto;
+  max-width: 400px;
+  width: 100%;
+  color: black;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cardInfo-container--title, .cardInfo-container--title2 {
+  border-radius: 10px;
+  text-align: center;
+  border: 1px black solid;
+  font-size: 15px;
+}
+
+.cardInfo-container--body{
+  display: flex;
+  flex-direction: column;
 }

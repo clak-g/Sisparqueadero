@@ -18,7 +18,7 @@ enviar.addEventListener('click',function(e){
         "contraseña": Contraseña
     }
 
-    fetch('URI',{
+    fetch('localhost:5000/api/admin',{
         method: 'GET',
         Headers:{
             'Content-Type': 'application/json'
